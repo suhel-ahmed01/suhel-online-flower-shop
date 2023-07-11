@@ -92,6 +92,7 @@ Body{
 }
 
 .hot-deal{
+    background-position: center;
     padding: 10px;
     width: 1922px;
     height: 620px;
@@ -125,6 +126,7 @@ Body{
 
 .latest-deal{
     background-image: url("./flower asset/Rectangle 9.png");
+    background-position: center;
     text-align: center;
     align-items: center;
     width: 1440px;
@@ -136,6 +138,7 @@ Body{
 }
 
 .last-part{
+    
     text-align: center;
     background-color: black;
     color: aliceblue;
@@ -145,4 +148,8 @@ Body{
     width: 1922px;
     height: 449px;
     flex-shrink: 0;
+}
+
+.text-primary{
+    color: #E55473;
 }
