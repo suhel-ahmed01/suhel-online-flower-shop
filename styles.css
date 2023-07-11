@@ -50,3 +50,11 @@ Body{
     text-align: center;
     font-size: large;
 }
+
+.img-featured-flowers{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 50%;
+    text-decoration-line: underline;
+    object-position: center;
+}
