@@ -52,9 +52,97 @@ Body{
 }
 
 .img-featured-flowers{
+    display: flex;
+    border-radius: 50%;
+    object-position: center;
+    text-decoration-line: underline;
+}
+
+.img-6{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.img-5{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    border-radius: 50%;
-    text-decoration-line: underline;
-    object-position: center;
+}
+
+.img-7{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.fig-caption{
+    color: #272727;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.hot-deal{
+    padding: 10px;
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    text-align: center;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    background-color: #E55473; 
+    width: 80px;
+    height: 35px;
+    color: aliceblue;
+
+}
+
+.btn-sign-up{
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.instagram{
+    text-align: center;
+
+}
+
+.latest-deal{
+    background-image: url("./flower asset/Rectangle 9.png");
+    text-align: center;
+    align-items: center;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+}
+
+.last-part{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
 }
